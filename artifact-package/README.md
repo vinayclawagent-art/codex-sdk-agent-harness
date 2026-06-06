@@ -23,6 +23,7 @@ A Codex Python SDK turns coding agents into embeddable product primitives for CI
 ## Generated artifacts
 - Prototype: [[Artifacts/Prototypes/codex-sdk-agent-harness/index.html|Codex Task Harness Planner]]
 - Prototype README: [[Artifacts/Prototypes/codex-sdk-agent-harness/README.md]]
+- Evidence-backed preset: [[Artifacts/Prototypes/codex-sdk-agent-harness/Evidence-Backed Preset - Repo Hygiene Maintenance Bot|Repo Hygiene Maintenance Bot]]
 - Skill draft: [[Artifacts/Skills/codex-sdk-agent-harness/SKILL.md]]
 - Improvement loop: [[Codex SDK Agent Harness Loop]]
 
@@ -36,8 +37,8 @@ Show the conversion from signal → artifact → real-world trial → improvemen
 Candidate skill `codex-sdk-task-harness` is drafted but not promoted yet; it needs at least one real workflow trial.
 
 ## Improvement backlog
-- Run the prototype against a real VinClawLabs workflow.
-- Add a before/after evidence template after first use.
+- Run the prototype against a real VinClawLabs workflow. ⏳ Next: use the Repo Hygiene Maintenance Bot preset on one real repo.
+- Add a before/after evidence template after first use. ✅ Prepared in [[Artifacts/Prototypes/codex-sdk-agent-harness/Evidence-Backed Preset - Repo Hygiene Maintenance Bot|Repo Hygiene Maintenance Bot]]; still needs real command output.
 - Convert repeated checklist fields into an installable Hermes skill only after validation.
 
 ## GitHub repo
@@ -45,3 +46,4 @@ https://github.com/vinayclawagent-art/codex-sdk-agent-harness
 
 ## Change log
 - 2026-06-06: Created package, prototype, repo mirror, and improvement loop from X source.
+- 2026-06-06: Added a report-first Repo Hygiene Maintenance Bot preset with evidence capture and human-gate fields for the first real Codex SDK harness trial.
