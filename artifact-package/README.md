@@ -7,7 +7,7 @@ github_repo: "https://github.com/vinayclawagent-art/codex-sdk-agent-harness"
 score: 9
 artifact_tracks: [prototype, skill]
 improvement_cadence: nightly
-last_improved: 2026-06-06
+last_improved: 2026-06-07
 tags: [artifact-package, codex, python-sdk, coding-agents]
 ---
 # Artifact Package: Codex SDK Agent Harness
@@ -26,6 +26,8 @@ A Codex Python SDK turns coding agents into embeddable product primitives for CI
 - Evidence-backed preset: [[Artifacts/Prototypes/codex-sdk-agent-harness/Evidence-Backed Preset - Repo Hygiene Maintenance Bot|Repo Hygiene Maintenance Bot]]
 - Skill draft: [[Artifacts/Skills/codex-sdk-agent-harness/SKILL.md]]
 - Improvement loop: [[Codex SDK Agent Harness Loop]]
+
+- Kickoff card: [[codex-sdk-agent-harness/Repo Hygiene Trial Kickoff Card]]
 
 ## Prototype brief
 A dependency-free static HTML builder that turns the X insight into a copyable implementation/checklist handoff.
@@ -47,3 +49,4 @@ https://github.com/vinayclawagent-art/codex-sdk-agent-harness
 ## Change log
 - 2026-06-06: Created package, prototype, repo mirror, and improvement loop from X source.
 - 2026-06-06: Added a report-first Repo Hygiene Maintenance Bot preset with evidence capture and human-gate fields for the first real Codex SDK harness trial.
+- 2026-06-07: Added [[codex-sdk-agent-harness/Repo Hygiene Trial Kickoff Card]] as the pre-trial scope/guardrail card for the next real-world run.
