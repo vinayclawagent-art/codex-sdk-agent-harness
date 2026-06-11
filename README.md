@@ -11,12 +11,15 @@ Inspired by: https://x.com/thsottiaux/status/2062734215494664697
 - `improvement-loop/` — recurring improvement tracker
 
 ## Quickstart
-Open `prototype/index.html` in a browser.
+Open `prototype/index.html` in a browser, use the repo-hygiene preset on one real repo, complete the kickoff and promotion cards, then fill `prototype/Repo Hygiene Post-Trial Debrief Template.md` before patching README, prototype, or skill wording.
+
+## Latest improvement
+- 2026-06-10: Added a repo-hygiene post-trial debrief template. It is template-ready for the next real trial and does not claim validation.
 
 ## Roadmap
-- Add filled examples from real workflows.
-- Add export helpers after first use.
-- Promote stable procedures into Hermes skills.
+- Fill the kickoff card, promotion card, and post-trial debrief from one real repo-hygiene run.
+- Add filled examples only from real command output and human review.
+- Promote stable procedures into Hermes skills only after source-backed evidence exists.
 
 ## Contributing
 Open issues with concrete workflows, failure cases, or reusable presets.

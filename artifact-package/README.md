@@ -7,7 +7,7 @@ github_repo: "https://github.com/vinayclawagent-art/codex-sdk-agent-harness"
 score: 9
 artifact_tracks: [prototype, skill]
 improvement_cadence: nightly
-last_improved: 2026-06-08
+last_improved: 2026-06-10
 tags: [artifact-package, codex, python-sdk, coding-agents]
 ---
 # Artifact Package: Codex SDK Agent Harness
@@ -29,6 +29,7 @@ A Codex Python SDK turns coding agents into embeddable product primitives for CI
 
 - Kickoff card: [[codex-sdk-agent-harness/Repo Hygiene Trial Kickoff Card]]
 - Promotion decision card: [[codex-sdk-agent-harness/Repo Hygiene Bot Promotion Decision Card]]
+- Post-trial debrief template: [[codex-sdk-agent-harness/Repo Hygiene Post-Trial Debrief Template]]
 
 ## Prototype brief
 A dependency-free static HTML builder that turns the X insight into a copyable implementation/checklist handoff.
@@ -43,6 +44,7 @@ Candidate skill `codex-sdk-task-harness` is drafted but not promoted yet; it nee
 - Run the prototype against a real VinClawLabs workflow. ⏳ Next: use the Repo Hygiene Maintenance Bot preset on one real repo.
 - Add a before/after evidence template after first use. ✅ Prepared in [[Artifacts/Prototypes/codex-sdk-agent-harness/Evidence-Backed Preset - Repo Hygiene Maintenance Bot|Repo Hygiene Maintenance Bot]]; still needs real command output.
 - [x] Add a promotion decision card that turns future repo-trial evidence into promote / pilot-only / iterate / hold.
+- [x] Add a post-trial debrief template that turns future repo-trial evidence into README/prototype/skill patch decisions without fabricating validation.
 - Convert repeated checklist fields into an installable Hermes skill only after validation.
 
 ## GitHub repo
@@ -53,3 +55,4 @@ https://github.com/vinayclawagent-art/codex-sdk-agent-harness
 - 2026-06-06: Added a report-first Repo Hygiene Maintenance Bot preset with evidence capture and human-gate fields for the first real Codex SDK harness trial.
 - 2026-06-07: Added [[codex-sdk-agent-harness/Repo Hygiene Trial Kickoff Card]] as the pre-trial scope/guardrail card for the next real-world run.
 - 2026-06-08: Added [[codex-sdk-agent-harness/Repo Hygiene Bot Promotion Decision Card]] so the next real repo trial can become an explicit promote / pilot-only / iterate / hold decision; card is ready, not validation proof.
+- 2026-06-10: Added [[codex-sdk-agent-harness/Repo Hygiene Post-Trial Debrief Template]] so future trial evidence has a final keep/change/remove and patch-queue gate before promotion claims.
